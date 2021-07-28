@@ -5,10 +5,8 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 
 # Design
 ![Blockschaltbild vom analogen Frontend](schemes/frontend.png)
-!(schemes/frontend.png)[Blockschaltbild vom analogen Frontend]
-![schemes/frontend.png](Blockschaltbild vom analogen Frontend)
 
-# Anforderungen
+## Anforderungen
 
 * Eingangsimpedanz: > 5 GOhm
 * Eingangsspannungsbereich: xxx
@@ -19,15 +17,15 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 ## Operationsverstärker
 Um die geforderte Eingangsimpedanz (GOhm Bereich) zu erreichen kann vor dem ADC ein Operationsverstärker vorgesehen werden.
 
-* xxx
+* AD8603 (Precision Micropower, Low Noise CMOS, Rail-to-Rail Input/Output Operational Amplifiers)
 
 ## Analogdigitalwandler
 Digitalisierung und ggf. Vorverstärkung (PGA) des analogen Signals.
 
-* ADS1115
-* MCP3427
+* ADS1115 (Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs with Internal Reference, Oscillator, and Programmable Comparator)
+* MCP3427 (16-Bit, Multi-Channel ΔΣ Analog-to-Digital Converter with I2C™ Interface and On-Board Reference)
 
 ## Isolator
 Galavanische Trennung von Messverstärker und -elektrode um Interferenzen zwischen verschiedenen Elektroden zu vermeiden.
 
-* ADUM5401
+* ADUM5401 (Quad-Channel, 2.5 kV Isolators with Integrated DC-to-DC Converter)
