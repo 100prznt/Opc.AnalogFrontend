@@ -17,7 +17,7 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 ## Operationsverstärker
 Um die geforderte Eingangsimpedanz (GOhm Bereich) zu erreichen kann vor dem ADC ein Operationsverstärker vorgesehen werden.
 
-* xxx
+* AD8603
 
 ## Analogdigitalwandler
 Digitalisierung und ggf. Vorverstärkung (PGA) des analogen Signals.
