@@ -14,17 +14,17 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 # Bauelementeauswahl
 
 ## Operationsverstärker
-Zur erhöhung der Eingangsimpedanz (GOhm Bereich)
+Um die geforderte Eingangsimpedanz (GOhm Bereich) zu erreichen kann vor dem ADC ein Operationsverstärker vorgesehen werden.
 
 * xxx
 
 ## Analogdigitalwandler
-Digitalisierung des analogen Signals
+Digitalisierung und ggf. Vorverstärkung (PGA) des analogen Signals.
 
 * ADS1115
 * MCP3427
 
 ## Isolator
-Galavanische Trennung
+Galavanische Trennung von Messverstärker und -elektrode um Interferenzen zwischen verschiedenen Elektroden zu vermeiden.
 
 * ADUM5401
