@@ -5,6 +5,8 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 
 # Design
 ![Blockschaltbild vom analogen Frontend](schemes/frontend.png)
+!(schemes/frontend.png)[Blockschaltbild vom analogen Frontend]
+![schemes/frontend.png](Blockschaltbild vom analogen Frontend)
 
 # Anforderungen
 
