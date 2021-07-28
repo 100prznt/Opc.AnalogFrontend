@@ -7,6 +7,8 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 
 # Anforderungen
 
+* Eingangsimpedanz: > 5 GOhm
+* Eingangsspannungsbereich: xxx
 
 
 # Bauelementeauswahl
