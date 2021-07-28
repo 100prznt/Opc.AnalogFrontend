@@ -4,7 +4,7 @@
 Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnisse welche wärend der Entwicklung und Qualifikation analoger Messverstärker mit D/A-Wandler erstellt werden. Eingesetzt werden soll dieses analoge Frontend zum Anschluss von pH, Redox (ORP) u.Ä. Messelektroden.
 
 # Design
-![Blockschaltbild vom analogen Frontend](schemes/frontend.png)
+!(Blockschaltbild vom analogen Frontend)[schemes/frontend.png}
 
 # Anforderungen
 
