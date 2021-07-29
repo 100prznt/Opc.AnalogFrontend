@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1_0">
+                    <description>ADS111x-Q1 Automotive, Low-Power, I 2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator</description>
+                    <wire layer="51" y2="1.55" width="0.15" x2="-1.55" y1="-1.55" x1="-1.55"/>
+                    <wire layer="51" y2="1.55" width="0.15" x2="1.55" y1="1.55" x1="-1.55"/>
+                    <wire layer="51" y2="-1.55" width="0.15" x2="1.55" y1="1.55" x1="1.55"/>
+                    <wire layer="51" y2="-1.55" width="0.15" x2="-1.55" y1="-1.55" x1="1.55"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="-3.025" y1="-1.8" x1="-3.025"/>
+                    <wire layer="39" y2="1.8" width="0.1" x2="3.025" y1="1.8" x1="-3.025"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="3.025" y1="1.8" x1="3.025"/>
+                    <wire layer="39" y2="-1.8" width="0.1" x2="-3.025" y1="-1.8" x1="3.025"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="1.55" y1="1.55" x1="-1.55"/>
+                    <wire layer="21" y2="-1.525" width="0.15" x2="1.55" y1="-1.55" x1="1.55"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="1.55" y1="1.525" x1="1.55"/>
+                    <wire layer="21" y2="-1.55" width="0.15" x2="1.55" y1="-1.55" x1="-1.55"/>
+                    <wire layer="21" y2="-1.525" width="0.15" x2="-1.55" y1="-1.55" x1="-1.55"/>
+                    <wire layer="21" y2="1.55" width="0.15" x2="-1.55" y1="1.525" x1="-1.55"/>
+                    <text layer="25" align="bottom-left" y="1.85" x="-1.55" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.0" x="-3.5" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="33" dx="1.45" dy="0.3" y="-1.0" x="-2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="33" dx="1.45" dy="0.3" y="-0.5" x="-2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="33" dx="1.45" dy="0.3" y="0.0" x="-2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="33" dx="1.45" dy="0.3" y="0.5" x="-2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="33" dx="1.45" dy="0.3" y="1.0" x="-2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="33" dx="1.45" dy="0.3" y="-1.0" x="2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="33" dx="1.45" dy="0.3" y="-0.5" x="2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="33" dx="1.45" dy="0.3" y="0.0" x="2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="9" stop="yes" roundness="33" dx="1.45" dy="0.3" y="0.5" x="2.2" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="10" stop="yes" roundness="33" dx="1.45" dy="0.3" y="1.0" x="2.2" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1_0_0">
+                    <description>ADS111x-Q1 Automotive, Low-Power, I 2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator</description>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="2.54" y1="-27.94" x1="2.54"/>
+                    <wire layer="94" y2="-5.08" width="0.254" x2="30.48" y1="-5.08" x1="2.54"/>
+                    <wire layer="94" y2="-27.94" width="0.254" x2="30.48" y1="-5.08" x1="30.48"/>
+                    <wire layer="94" y2="-27.94" width="0.254" x2="2.54" y1="-27.94" x1="30.48"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="2.54" y1="-7.62" x1="2.54"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="2.54" y1="-15.24" x1="2.54"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="2.54" y1="-17.78" x1="2.54"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="2.54" y1="-20.32" x1="2.54"/>
+                    <wire layer="94" y2="-22.86" width="0.15" x2="2.54" y1="-22.86" x1="2.54"/>
+                    <wire layer="94" y2="-12.7" width="0.15" x2="30.48" y1="-12.7" x1="30.48"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="30.48" y1="-7.62" x1="30.48"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="30.48" y1="-17.78" x1="30.48"/>
+                    <wire layer="94" y2="-20.32" width="0.15" x2="30.48" y1="-20.32" x1="30.48"/>
+                    <wire layer="94" y2="-25.4" width="0.15" x2="30.48" y1="-25.4" x1="30.48"/>
+                    <text layer="95" align="top-left" y="-2.54" x="2.54" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-30.48" x="2.54" rot="R0" size="2.54">ADS1115BQDGSRQ1</text>
+                    <pin name="VDD" visible="both" length="middle" y="-7.62" x="-2.54"/>
+                    <pin name="AIN0" visible="both" length="middle" y="-15.24" x="-2.54"/>
+                    <pin name="AIN1" visible="both" length="middle" y="-17.78" x="-2.54"/>
+                    <pin name="AIN2" visible="both" length="middle" y="-20.32" x="-2.54"/>
+                    <pin name="AIN3" visible="both" length="middle" y="-22.86" x="-2.54"/>
+                    <pin name="ADDR" visible="both" length="middle" y="-12.7" x="35.56" rot="R180"/>
+                    <pin name="ALERT/RDY" visible="both" length="middle" y="-7.62" x="35.56" rot="R180"/>
+                    <pin name="SCL" visible="both" length="middle" y="-17.78" x="35.56" rot="R180"/>
+                    <pin name="SDA" visible="both" length="middle" y="-20.32" x="35.56" rot="R180"/>
+                    <pin name="GND" visible="both" length="middle" y="-25.4" x="35.56" rot="R180"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1">
+                    <description>ADS111x-Q1 Automotive, Low-Power, I 2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator</description>
+                    <gates>
+                        <gate name="G$0" symbol="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1_0_0" package="TEXAS_INSTRUMENTS_ADS1115BQDGSRQ1_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="ADDR"/>
+                                <connect gate="G$0" pad="2" pin="ALERT/RDY"/>
+                                <connect gate="G$0" pad="3" pin="GND"/>
+                                <connect gate="G$0" pad="4" pin="AIN0"/>
+                                <connect gate="G$0" pad="5" pin="AIN1"/>
+                                <connect gate="G$0" pad="6" pin="AIN2"/>
+                                <connect gate="G$0" pad="7" pin="AIN3"/>
+                                <connect gate="G$0" pad="8" pin="VDD"/>
+                                <connect gate="G$0" pad="9" pin="SDA"/>
+                                <connect gate="G$0" pad="10" pin="SCL"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="595-ADS1115BQDGSRQ1"/>
+                                    <attribute name="mfg_package_ident_rev" value="C"/>
+                                    <attribute name="mfg_package_ident_date" value="02/04"/>
+                                    <attribute name="temperature_range_high" value="+125°C"/>
+                                    <attribute name="MPN" value="ADS1115BQDGSRQ1"/>
+                                    <attribute name="digikey_description" value="IC 16 Bit Analog to Digital Converter 2, 4 Input 1 Sigma-Delta 10-VSSOP"/>
+                                    <attribute name="digikey_part_number" value="296-45221-1-ND"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="datasheet" value="http://www.ti.com/lit/ds/symlink/ads1115-q1.pdf"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="mfg_package_ident" value="DGS (S-PDSO-G10)"/>
+                                    <attribute name="temperature_range_low" value="-40°C"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="MF" value="Texas Instruments"/>
+                                    <attribute name="package" value="VSSOP10"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
