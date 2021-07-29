@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="ANALOG_DEVICES_ADUM1250ARZ_0">
+                    <description>ADI-ADuM1250-R-8</description>
+                    <wire layer="21" y2="-2.5" width="0.15" x2="1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="2.5" x1="-1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="-2.5" x1="1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="-1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="51" y2="-2.5" width="0.1" x2="2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="2.5" x1="-2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="-2.5" x1="2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="-2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="39" y2="2.6" width="0.1" x2="-3.35" y1="-2.6" x1="-3.35"/>
+                    <wire layer="39" y2="2.6" width="0.1" x2="3.35" y1="2.6" x1="-3.35"/>
+                    <wire layer="39" y2="-2.6" width="0.1" x2="3.35" y1="2.6" x1="3.35"/>
+                    <wire layer="39" y2="-2.6" width="0.1" x2="-3.35" y1="-2.6" x1="3.35"/>
+                    <text layer="25" align="bottom-left" y="2.855" x="-4.35" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.5" x="-0.6" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="2.73" x="-2.625" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="1.6" x="-1.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.55" dy="1.25" y="-1.905" x="2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.55" dy="1.25" y="-0.635" x="2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.55" dy="1.25" y="0.635" x="2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.55" dy="1.25" y="1.905" x="2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.55" dy="1.25" y="-1.905" x="-2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.55" dy="1.25" y="-0.635" x="-2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.55" dy="1.25" y="0.635" x="-2.625" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.55" dy="1.25" y="1.905" x="-2.625" rot="R90" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_ADUM1250ARZ_1">
+                    <description>ADI-ADuM1250-R-8</description>
+                    <wire layer="21" y2="2.5" width="0.15" x2="-1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="-2.5" x1="1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="2.5" x1="-1.6"/>
+                    <wire layer="21" y2="-2.5" width="0.15" x2="1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="-2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="-2.5" x1="2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="2.5" x1="-2.0"/>
+                    <wire layer="51" y2="-2.5" width="0.1" x2="2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="39" y2="2.75" width="0.1" x2="-3.7" y1="-2.75" x1="-3.7"/>
+                    <wire layer="39" y2="2.75" width="0.1" x2="3.7" y1="2.75" x1="-3.7"/>
+                    <wire layer="39" y2="-2.75" width="0.1" x2="3.7" y1="2.75" x1="3.7"/>
+                    <wire layer="39" y2="-2.75" width="0.1" x2="-3.7" y1="-2.75" x1="3.7"/>
+                    <text layer="25" align="bottom-left" y="2.88" x="-4.7" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="2.755" x="-2.725" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="1.5" x="-0.6" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="1.6" x="-1.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.6" dy="1.45" y="1.905" x="-2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.6" dy="1.45" y="0.635" x="-2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.6" dy="1.45" y="-0.635" x="-2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.6" dy="1.45" y="-1.905" x="-2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.6" dy="1.45" y="1.905" x="2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.6" dy="1.45" y="0.635" x="2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.6" dy="1.45" y="-0.635" x="2.725" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.6" dy="1.45" y="-1.905" x="2.725" rot="R90" cream="yes"/>
+                </package>
+                <package name="ANALOG_DEVICES_ADUM1250ARZ_2">
+                    <description>ADI-ADuM1250-R-8</description>
+                    <wire layer="21" y2="-2.5" width="0.15" x2="1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="2.5" x1="-1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="1.6" y1="-2.5" x1="1.6"/>
+                    <wire layer="21" y2="2.5" width="0.15" x2="-1.6" y1="-2.5" x1="-1.6"/>
+                    <wire layer="51" y2="-2.5" width="0.1" x2="2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="2.5" x1="-2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="2.0" y1="-2.5" x1="2.0"/>
+                    <wire layer="51" y2="2.5" width="0.1" x2="-2.0" y1="-2.5" x1="-2.0"/>
+                    <wire layer="39" y2="3.0" width="0.1" x2="-4.15" y1="-3.0" x1="-4.15"/>
+                    <wire layer="39" y2="3.0" width="0.1" x2="4.15" y1="3.0" x1="-4.15"/>
+                    <wire layer="39" y2="-3.0" width="0.1" x2="4.15" y1="3.0" x1="4.15"/>
+                    <wire layer="39" y2="-3.0" width="0.1" x2="-4.15" y1="-3.0" x1="4.15"/>
+                    <text layer="25" align="bottom-left" y="3.0" x="-5.15" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="1.5" x="-0.6" layer="21" radius="0.3" width="0.6"/>
+                    <circle y="2.78" x="-2.825" layer="21" radius="0.125" width="0.25"/>
+                    <circle y="1.6" x="-1.1" layer="51" radius="0.5" width="0.1"/>
+                    <smd layer="1" thermals="yes" name="5" stop="yes" roundness="100" dx="0.65" dy="1.65" y="-1.905" x="2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="6" stop="yes" roundness="100" dx="0.65" dy="1.65" y="-0.635" x="2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="7" stop="yes" roundness="100" dx="0.65" dy="1.65" y="0.635" x="2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="8" stop="yes" roundness="100" dx="0.65" dy="1.65" y="1.905" x="2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="4" stop="yes" roundness="100" dx="0.65" dy="1.65" y="-1.905" x="-2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="3" stop="yes" roundness="100" dx="0.65" dy="1.65" y="-0.635" x="-2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="100" dx="0.65" dy="1.65" y="0.635" x="-2.825" rot="R90" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="0.65" dy="1.65" y="1.905" x="-2.825" rot="R90" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="ANALOG_DEVICES_ADUM1250ARZ_0_0">
+                    <description>ADI-ADuM1250-R-8</description>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="0.0" y1="-20.32" x1="0.0"/>
+                    <wire layer="94" y2="-5.08" width="0.508" x2="20.32" y1="-5.08" x1="0.0"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="20.32" y1="-5.08" x1="20.32"/>
+                    <wire layer="94" y2="-20.32" width="0.508" x2="0.0" y1="-20.32" x1="20.32"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="0.0" y1="-15.24" x1="0.0"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="0.0" y1="-10.16" x1="0.0"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="0.0" y1="-7.62" x1="0.0"/>
+                    <wire layer="94" y2="-15.24" width="0.15" x2="20.32" y1="-15.24" x1="20.32"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="20.32" y1="-17.78" x1="20.32"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="20.32" y1="-7.62" x1="20.32"/>
+                    <wire layer="94" y2="-10.16" width="0.15" x2="20.32" y1="-10.16" x1="20.32"/>
+                    <wire layer="94" y2="-17.78" width="0.15" x2="0.0" y1="-17.78" x1="0.0"/>
+                    <text layer="95" align="top-left" y="-2.54" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-25.4" x="0.0" rot="R0" size="2.54">ADUM1250ARZ</text>
+                    <pin direction="pwr" name="VDD1" visible="both" length="middle" y="-15.24" x="-5.08"/>
+                    <pin direction="io" name="SDA1" visible="both" length="middle" y="-10.16" x="-5.08"/>
+                    <pin direction="io" name="SCL1" visible="both" length="middle" y="-7.62" x="-5.08"/>
+                    <pin direction="pwr" name="GND1" visible="both" length="middle" y="-15.24" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="GND2" visible="both" length="middle" y="-17.78" x="25.4" rot="R180"/>
+                    <pin direction="io" name="SCL2" visible="both" length="middle" y="-7.62" x="25.4" rot="R180"/>
+                    <pin direction="io" name="SDA2" visible="both" length="middle" y="-10.16" x="25.4" rot="R180"/>
+                    <pin direction="pwr" name="VDD2" visible="both" length="middle" y="-17.78" x="-5.08"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="U" name="ANALOG_DEVICES_ADUM1250ARZ">
+                    <description>ADI-ADuM1250-R-8</description>
+                    <gates>
+                        <gate name="G$0" symbol="ANALOG_DEVICES_ADUM1250ARZ_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="ANALOG_DEVICES_ADUM1250ARZ_0_0" package="ANALOG_DEVICES_ADUM1250ARZ_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VDD1"/>
+                                <connect gate="G$0" pad="2" pin="SDA1"/>
+                                <connect gate="G$0" pad="3" pin="SCL1"/>
+                                <connect gate="G$0" pad="4" pin="GND1"/>
+                                <connect gate="G$0" pad="5" pin="GND2"/>
+                                <connect gate="G$0" pad="6" pin="SCL2"/>
+                                <connect gate="G$0" pad="7" pin="SDA2"/>
+                                <connect gate="G$0" pad="8" pin="VDD2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="966902"/>
+                                    <attribute name="Supply_Voltage_Min" value="3 V"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="2A4EF708-4F8E-492D-AAFE-B18E0A84DF99"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADUM1250ARZ"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521846271"/>
+                                    <attribute name="Datasheet_Version" value="Rev. H"/>
+                                    <attribute name="Packing" value="Tube"/>
+                                    <attribute name="release_date" value="1464842896"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf"/>
+                                    <attribute name="vault_revision" value="8C222443-3EEE-4C61-9CC9-8AB0350D3B5D"/>
+                                    <attribute name="Data_Rate" value="1 Mbps"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="Package_Description" value="8-Pin Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="pin_0_0_2_inside_edge" value="clock"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_5_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Supply_Voltage_Max" value="5.5 V"/>
+                                    <attribute name="Temperature_Max" value="105 degC"/>
+                                    <attribute name="package" value="MS-012-AA"/>
+                                    <attribute name="Temperature_Min" value="-40 degC"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_ADUM1250ARZ_0_1" package="ANALOG_DEVICES_ADUM1250ARZ_1">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VDD1"/>
+                                <connect gate="G$0" pad="2" pin="SDA1"/>
+                                <connect gate="G$0" pad="3" pin="SCL1"/>
+                                <connect gate="G$0" pad="4" pin="GND1"/>
+                                <connect gate="G$0" pad="5" pin="GND2"/>
+                                <connect gate="G$0" pad="6" pin="SCL2"/>
+                                <connect gate="G$0" pad="7" pin="SDA2"/>
+                                <connect gate="G$0" pad="8" pin="VDD2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="966902"/>
+                                    <attribute name="Supply_Voltage_Min" value="3 V"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="2A4EF708-4F8E-492D-AAFE-B18E0A84DF99"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADUM1250ARZ"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521846271"/>
+                                    <attribute name="Datasheet_Version" value="Rev. H"/>
+                                    <attribute name="Packing" value="Tube"/>
+                                    <attribute name="release_date" value="1464842896"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf"/>
+                                    <attribute name="vault_revision" value="8C222443-3EEE-4C61-9CC9-8AB0350D3B5D"/>
+                                    <attribute name="Data_Rate" value="1 Mbps"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="Package_Description" value="8-Pin Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="pin_0_0_2_inside_edge" value="clock"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_5_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Supply_Voltage_Max" value="5.5 V"/>
+                                    <attribute name="Temperature_Max" value="105 degC"/>
+                                    <attribute name="package" value="MS-012-AA"/>
+                                    <attribute name="Temperature_Min" value="-40 degC"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                        <device name="ANALOG_DEVICES_ADUM1250ARZ_0_2" package="ANALOG_DEVICES_ADUM1250ARZ_2">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="VDD1"/>
+                                <connect gate="G$0" pad="2" pin="SDA1"/>
+                                <connect gate="G$0" pad="3" pin="SCL1"/>
+                                <connect gate="G$0" pad="4" pin="GND1"/>
+                                <connect gate="G$0" pad="5" pin="GND2"/>
+                                <connect gate="G$0" pad="6" pin="SCL2"/>
+                                <connect gate="G$0" pad="7" pin="SDA2"/>
+                                <connect gate="G$0" pad="8" pin="VDD2"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="ciiva_ids" value="966902"/>
+                                    <attribute name="Supply_Voltage_Min" value="3 V"/>
+                                    <attribute name="Component_Link_1_Description" value="Manufacturer URL"/>
+                                    <attribute name="vault_guid" value="2A4EF708-4F8E-492D-AAFE-B18E0A84DF99"/>
+                                    <attribute name="Mounting_Technology" value="Surface Mount"/>
+                                    <attribute name="MPN" value="ADUM1250ARZ"/>
+                                    <attribute name="Component_Link_1_URL" value="http://www.analog.com/"/>
+                                    <attribute name="imported" value="yes"/>
+                                    <attribute name="prefix" value="U"/>
+                                    <attribute name="import_ts" value="1521846271"/>
+                                    <attribute name="Datasheet_Version" value="Rev. H"/>
+                                    <attribute name="Packing" value="Tube"/>
+                                    <attribute name="release_date" value="1464842896"/>
+                                    <attribute name="datasheet" value="http://www.analog.com/media/en/technical-documentation/data-sheets/ADUM1250_1251.pdf"/>
+                                    <attribute name="vault_revision" value="8C222443-3EEE-4C61-9CC9-8AB0350D3B5D"/>
+                                    <attribute name="Data_Rate" value="1 Mbps"/>
+                                    <attribute name="footprint_variant_name_0" value="Level C"/>
+                                    <attribute name="Package_Description" value="8-Pin Small Outline Package, Body 4.9 x 3.9 mm, Pitch 1.27 mm"/>
+                                    <attribute name="footprint_variant_name_2" value="Level A"/>
+                                    <attribute name="pin_0_0_2_inside_edge" value="clock"/>
+                                    <attribute name="imported_from" value="vault"/>
+                                    <attribute name="pin_0_0_5_inside_edge" value="clock"/>
+                                    <attribute name="rohs" value="Yes"/>
+                                    <attribute name="MF" value="Analog Devices"/>
+                                    <attribute name="footprint_variant_name_1" value="Level B"/>
+                                    <attribute name="Supply_Voltage_Max" value="5.5 V"/>
+                                    <attribute name="Temperature_Max" value="105 degC"/>
+                                    <attribute name="package" value="MS-012-AA"/>
+                                    <attribute name="Temperature_Min" value="-40 degC"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>

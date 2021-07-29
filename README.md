@@ -28,7 +28,7 @@ Digitalisierung und ggf. Vorverstärkung (PGA) des analogen Signals.
 ## Isolator
 Galavanische Trennung von Messverstärker und -elektrode um Interferenzen zwischen verschiedenen Elektroden zu vermeiden.
 
-* ADUM5401 (Quad-Channel, 2.5 kV Isolators with Integrated DC-to-DC Converter)
+* ADUM5401 (Quad-Channel, 2.5 kV Isolators with Integrated DC-to-DC Converter) (EUR 12,00) NICHT FÜR I2C!
 
 ### Diskreter Aufbau (DC/DC + Isolator)
 
