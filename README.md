@@ -22,7 +22,7 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 ![AFEEB v02.0 PCB BOT](images/Afeeb_v02.0_BOT.png)
 
 
-Die Version 2 greift Ideene der von TI veröffentlichten Circuit Notes auf:
+Die Version 2 greift Ideen der von TI veröffentlichten Circuit Notes auf:
 * Guard Treiber und entsprechendes Layout
 * Analoge Temperaturmessung auf PCB über selben ADC
 * Entkoppelte Referenzspannungsversorgung
