@@ -15,10 +15,9 @@ Dieses Repository dient als Sammler für alle Notizen, Dokumentationen, Ergebnis
 # Erste Entwürfe
 ### Analog Frontend Evaluation Board v01.0
 ![AFEEB v01.0 PCB TOP](images/Afeeb_v01.0_TOP.png)
-![AFEEB v01.0 PCB BOT](images/Afeeb_v01.0_BOT.png)
 
 
-### Analog Frontend Evaluation Board v02.0
+### Analog Frontend Evaluation Board v02.0-b
 ![AFEEB v02.0 PCB TOP](images/Afeeb_v02.0_TOP.png)
 ![AFEEB v02.0 PCB BOT](images/Afeeb_v02.0_BOT.png)
 
